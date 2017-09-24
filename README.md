@@ -13,3 +13,6 @@ mvn -pl :hello-app-web -am tomcat7:run -DadditionalClasspathDir="config/dev"
 To test, launch the following url on your browser: 
 
 http://localhost:8080/swagger-ui.html
+
+### Java Config Version
+Checkout the `javaconfig` branch for the Java Config implementation of the app.
